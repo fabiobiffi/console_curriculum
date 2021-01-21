@@ -1,0 +1,13 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .console-container {
+        padding: 1vh 1vw;
+    }
+
+    .console-container > .title {
+        font-size: 28px;
+    }
+
+    .console-container > .title button {
+        font-size: 20px;
+    }
+}

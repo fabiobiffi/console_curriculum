@@ -1,0 +1,26 @@
+.text-typing {
+  border-right: solid 3px black;
+  white-space: nowrap;
+  overflow: hidden;    
+  margin: 0 auto;
+}
+
+/* Animation */
+.text-typing {
+    animation: animated-text 3s steps(29,end) 1s 1 normal both,
+    animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: #666666;}
+  to{border-right-color: transparent;}
+}

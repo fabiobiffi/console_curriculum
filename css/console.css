@@ -1,0 +1,97 @@
+/* SECTION ABOUT CONSOLE*/
+
+.console-container {
+    min-height: 100vh;
+    padding: 5vh 10vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../img/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430);
+}
+
+.console-container > .title {
+    margin-bottom: 64px;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.console-container > .title button {
+    font-size: 28px;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 64px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.console-container > .title button:hover {
+    background-color: white;
+    color: #f96200;
+}
+
+.console {
+    width: 100%;
+    max-width: 1000px;
+    background: #26071e;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+.console .top-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #393a35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+}
+
+.console .top-bar .icon-section {
+    display: flex;
+    align-items: center;
+}
+
+.console .top-bar .icon-section .minimize,
+.console .top-bar .icon-section .fullscreen,
+.console .top-bar .icon-section .close {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #66635f;
+    margin-left: 5px;
+}
+
+.console .top-bar .icon-section .close {
+    background-color: #c05f3a;
+}
+
+.content {
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#loading, #cv{
+    display: none;
+}
+
+.host-name {
+    color: #81c14a;
+}
+
+.comment {
+    color: #aaaaaa;
+    font-style: italic;
+}
